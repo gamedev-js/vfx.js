@@ -65,7 +65,7 @@ class Particle {
     this._distanceToCam = 1;
   }
 
-  reset () {
+  reset() {
     // internal state
     this.age = 0.0;
     vmath.vec3.set(this.position, 0, 0, 0);

@@ -1,28 +1,16 @@
-## Input States
+## VFX.js
 
-Update input states every frame.
+Visual Effect Engine for WebGL game.
 
 ## Install
 
 ```bash
-npm install input.js
+npm install vfx.js
 ```
 
 ## Usage
 
-```javascript
-let input = new Input();
-
-function animate() {
-  if (input.keydown('w')) {
-    console.log('key w down');
-  }
-
-  input.reset();
-  requestAnimationFrame(animate);
-}
-requestAnimationFrame(animate);
-```
+TODO
 
 ## Documentation
 
@@ -30,15 +18,6 @@ TODO
 
 ## TODO
 
- - options
-   - lock-filter (a filter function to decide if enter the lock state)
- - api
-   - installTouches()
- - extensions
-   - input.mouseclick(name, downupSpan, dragDistance)
-   - input.mouseclicks(name, clickCount, downupSpan, clickSpan, dragDistance)
-   - input.keyclick(name, downupSpan)
-   - input.keyclicks(name, clickCount, downupSpan, clickSpan)
 
 ## License
 
