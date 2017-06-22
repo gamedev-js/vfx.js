@@ -1,6 +1,6 @@
 
 /*
- * vfx.js v1.0.0
+ * vfx.js v1.0.1
  * (c) 2017 @Johnny Wu
  * Released under the MIT License.
  */
@@ -159,7 +159,7 @@ class Emitter {
 
     if (this._camPos) {
       // NOTE: javascript not support partially sort
-      this._particles._data.sort((a, b) => {
+      this._particles.sort((a, b) => {
         return a._distanceToCam - b._distanceToCam;
       });
     }
